@@ -1,0 +1,27 @@
+body {
+  background-image: url(./Church\ logo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+:root {
+  --primary-color: #b5afaf;
+  --custom-color: blue;
+  --secondary-color: white;
+}
+nav {
+  color: var(--primary-color);
+  text-align: right;
+  text-transform: lowercase;
+  text-shadow: #b5afaf;
+  text-align-last: right;
+}
+.a {
+  -ms-text-size-adjust: auto;
+}
+h1 {
+  text-align: center;
+  text-decoration: var(--custom-color);
+}
+.a:hover {
+  text-decoration: solid;
+}

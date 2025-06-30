@@ -1,0 +1,27 @@
+h1{
+    color: aqua;
+    text-align: center;
+    
+}
+h2{
+    text-decoration:red;
+    text-transform: uppercase;
+}
+h3{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+body{
+    color: orange;
+}
+table{
+    color: blue;
+    padding: 1%;
+    text-align: justify;
+    text-align: right;
+}
+td{
+    border: 2px slategray solid;
+}
+th{border: 5px orange  solid;}

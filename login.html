@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login_container">
+        <div class="login_title">
+          <span>login</span>
+        </div>
+        <div class="input_wrapper">
+          <input type="text" id="user" class="input_field" required />
+          <label for="user" class="label">username</label>
+          <i class="fa-regular fa-user icon"></i>
+        </div>
+        <div class="input_wrapper">
+          <input type="password" id="pass" class="input_field" required />
+          <label for="pass" class="label">password</label>
+          <i class="fa-solid fa-lock icon"></i>
+        </div>
+        <div class="remember-forgot">
+          <div class="remember-me">
+            <input type="checkbox" id="remember" />
+            <label for="remember">remember me</label>
+          </div>
+          <div class="forgot">
+            <a href="#">forgot password</a>
+          </div>
+        </div>
+        <div class="input_wrapper">
+          <input type="submit" class="input_submit" value="login" />
+        </div>
+        <div class="sign up">
+          <span>dont have an account <a href="#">sign up</a></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
